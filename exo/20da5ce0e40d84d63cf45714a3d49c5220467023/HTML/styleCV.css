@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'CaviarDreams';
+	src : url('CaviarDreams.woff');
+
+}
+*{
+	font-family: "CaviarDreams","Arial Black",Arial, sans-serif;
+}
+
+body {
+	background-color : rgb(216,227,226);
+}
+
+.contact {
+	background: rgb(61,99,96);
+	width: 20%;
+	height: 1000px;
+	text-align: center;
+	color : white;
+	overflow: auto;
+}
+
+.CV {
+	background :rgb(216,227,226);
+	flex : 1;
+	margin-left : 2%;
+	display: flex;
+	flex-direction: column;
+}
+
+#page {
+	display : flex;
+}
+
+.maphoto {
+	width : 200px;
+}
+
+.contact ul{
+	list-style: none;
+}
+
+strong{
+	font-weight: bold;
+}
+
+.CV h1{
+	text-align: center;
+	color : rgb(67,82,80);
+	font-size: xx-large;
+}
+.CV h2 {
+	color : rgb(6,99,90);
+}
+
+.contenu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+
+

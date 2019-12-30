@@ -1,0 +1,34 @@
+/* Feuille de style */
+#menu
+{
+  list-style : none;
+}
+#topsection
+{
+  position: relative;
+  top: 10px;
+  left: 350px;
+  display : inline-block;
+  border: 1px solid black;
+  padding: 20px;
+}
+p
+{
+  position: relative;
+  top:150px;
+  display : flex;
+  flex-direction : column;
+  width : 80%;
+  text-align : justify;
+  margin : auto; 
+}
+nav{
+  background-color : rgba(155,155,155,10);
+  
+  position: fixed;
+  top:10px;
+  left :150px;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 20px;
+}

@@ -1,0 +1,43 @@
+body
+{
+	background-image: url(Image/bg2.png);
+}
+@font-face 
+{
+    font-family: 'Dayrom';
+}
+.lisere{
+    display:inline-block;
+    position: fixed;
+    min-width:10%;
+    max-width:10%;
+    background-color:#706b64;
+    min-height:1000px;
+}
+.contenu{
+    width:85%;
+    padding-left:30px;
+    display:inline-block;
+    margin-left: 10%;
+}
+.en-haut{
+    display: block;
+    min-height:250px;
+}
+.en-bas{
+    display: block;
+}
+.gauche,.milieu,.droite{
+    vertical-align: top;
+    display: inline-block;
+    margin-right:40px;
+    min-width:30%;
+    max-width:30%;
+}
+h1{
+    color: purple;
+}
+h2{
+    color: purple;
+}
+

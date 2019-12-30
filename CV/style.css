@@ -1,0 +1,131 @@
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html body{
+    width :90%;
+    font-size: 0.9em;
+}
+section{
+    font-family: 'Dayrom',serif;
+    font-weight: normal ;
+}
+body{   
+    margin-left: 20px;
+    display: flex;     
+}
+.gauche{
+
+    width: 15%;
+    /* flex : 1; */
+    background-color: rgb(243, 225, 126);
+}
+
+.principale{
+    display: flex;  
+    flex-direction: column; 
+    justify-content: space-between;
+    width: 85%;
+ 
+}
+
+.head{
+    display: flex;
+
+}
+#identite{
+    flex : 5;
+}
+#nom, #fonction{
+    color:rgba(66, 60, 51,0.8);
+    text-align: center;
+}
+#fonction{
+    text-align: center;
+}
+
+#present{
+    font-size: 0.8em;
+    flex : 2;
+}
+#resume{
+    font-size: 0.5em;
+    text-align: center;
+    padding-left: 20px;
+}
+#image{
+  
+    flex:1;
+    text-align: left;                               
+}
+img{
+    width:50px;
+}
+
+.corps{
+    display: flex;
+    justify-content: space-around;    
+}
+ul{
+    list-style:none;
+}
+.contour{
+    border-radius: 10px;
+    border : 1px solid black; 
+}
+.experience {
+ 
+    width : 25%;
+} 
+.text-exp{
+    font-size: 0.5em;
+}
+
+.star{
+    width: 8px;
+  
+}
+
+.competences{
+    width : 35%;
+}
+
+
+.title{
+    font-size: 0.7em;
+    text-align: left;
+    margin-left: 20px;
+    color: grey;
+}
+
+.formations{   
+    width : 35%;
+}
+
+ footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+.centre-interret{    
+    margin-top: 0;
+    flex-direction: column;    
+    width: 80%;
+    height : 75%;
+}
+.centre-interret .title{
+    margin-left: 100px;
+}
+#loisir{
+    width: 75%;
+    height: 50%;
+
+}
